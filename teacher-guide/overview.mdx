@@ -1,97 +1,58 @@
 ---
 title: "Teacher Guide"
-description: "Learn how teachers use Chanakya AI to create assessments and exercises, monitor submissions, analyze student performance, manage batches, and use AI-powered insights."
 sidebarTitle: "Overview"
 ---
 
-# Teacher Guide
+# Teacher guide
 
-The Teacher Portal gives instructors a unified workspace for monitoring class performance, creating learning content, managing exercises, reviewing submissions, and acting on student analytics.
+The teacher workspace is organized around a simple cycle: plan work, assign it, monitor completion, review grading, and use the results to decide what comes next.
 
-## Getting started
+<Steps>
+  <Step title="Choose the class context">
+    On **Dashboard**, choose the assigned section and subject. The summary cards and insights update to the selected class context.
+  </Step>
+  <Step title="Create or upload work">
+    Open **Tests** or **Homework**. Create content from curriculum selections, or upload a paper when that mode is available.
+  </Step>
+  <Step title="Review before release">
+    Preview the generated or extracted questions. Check question text, answer keys, marks, instructions, and dates before students receive the work.
+  </Step>
+  <Step title="Monitor and analyze">
+    Track submissions from the management list. Open **View students** for learner-level status and **Class analysis** after graded results are available.
+  </Step>
+</Steps>
 
-After signing in, teachers can open the dashboard, review assigned batches or sections, inspect performance metrics, and move directly into content creation or student monitoring.
+## Primary navigation
 
-A typical workflow is:
+- **Dashboard** shows class size, class average, pending work, top performers, students needing attention, and chapter-level performance.
+- **Tests** is the management table for creating, filtering, previewing, and analyzing tests.
+- **Homework** provides the corresponding workflow for assignments.
+- **Sections** lists assigned sections and their students.
+- **Help** opens assistance resources.
+- The profile menu provides **Settings**, feedback, and logout.
 
-1. Review the dashboard and select a batch.
-2. Create an exam or exercise.
-3. Monitor student participation and submissions.
-4. Review results and feedback.
-5. Use analytics to decide what to reteach or assign next.
+## Test lifecycle
 
-<figure><img src="https://raw.githubusercontent.com/neurobridgetech/gitbook-docs/main/.gitbook/assets/Screenshot%202025-08-21%20at%208.49.31%E2%80%AFPM.png" alt="Teacher dashboard" /><figcaption>Teacher dashboard</figcaption></figure>
+The Tests table can show processing, extraction failure, pending, approved, rejected, graded, published, and deleted states. Available actions change with the state.
 
-## Dashboard and class analytics
+<Info>
+  **Class analysis** is available only when the assessment has enough completed, graded data. A disabled action usually means the test has not reached that stage.
+</Info>
 
-The dashboard summarizes class activity and academic performance. Teachers can filter information by assigned batch, section, subject, and time period where available.
+<CardGroup cols={2}>
+  <Card title="Dashboard" icon="chart-line" href="/teacher-guide/dashboard-overview/overview">
+    Read class metrics and performance signals.
+  </Card>
 
-Dashboard analytics can include:
+  <Card title="Create content" icon="pen-to-square" href="/teacher-guide/content-creation/overview">
+    Configure, upload, preview, and release assessments.
+  </Card>
 
-- Overall class performance.
-- Student participation and completion.
-- Strong and weak topics.
-- Recent exam and exercise performance.
-- Comparative trends across batches or time ranges.
+  <Card title="Manage tests" icon="list-check" href="/teacher-guide/exercise-management/exercise-list-and-status">
+    Search, filter, and act on test records.
+  </Card>
 
-These views help teachers quickly identify students or concepts that need additional attention.
-
-## Creating exercises
-
-Exercise creation is designed for focused practice. Teachers select a target batch, subject, chapter, and topic, then configure the exercise and schedule.
-
-The creation flow supports:
-
-- Batch and subject selection.
-- Chapter-based organization.
-- AI-generated topic suggestions.
-- Manually entered topics.
-- Flexible start and end dates.
-- Validation to prevent incomplete configuration.
-
-<figure><img src="https://raw.githubusercontent.com/neurobridgetech/gitbook-docs/main/.gitbook/assets/Screenshot%202025-08-21%20at%209.26.54%E2%80%AFPM.png" alt="Creating an exercise" /><figcaption>Exercise creation</figcaption></figure>
-
-## Preview, validation, and publishing
-
-Before publishing content, teachers can review the generated material and confirm that questions, answers, topics, marks, and instructions are appropriate for the intended class.
-
-The review stage is intended to catch incorrect or incomplete content before students receive it. Once validated, the teacher can publish or schedule the activity.
-
-Where supported, content can also be exported for offline or administrative use.
-
-## Exercise management
-
-The exercise management area helps teachers track active, scheduled, and completed exercises. Teachers can review status, participation, student submissions, and progress.
-
-Useful views include:
-
-- Exercise list and current status.
-- Number of assigned and completed submissions.
-- Individual student submission status.
-- Exercise-level performance analytics.
-- Completion and engagement trends.
-
-## Student analytics
-
-Student Analytics provides both class-level and individual-level insight.
-
-Teachers can use it to:
-
-- Compare performance across students or batches.
-- Inspect individual student trends.
-- Identify persistent weak areas.
-- Review performance by subject or topic.
-- Generate or consult progress reports.
-- Use recommendations to plan follow-up teaching or practice.
-
-Comparative analytics are intended to support instructional decisions rather than replace teacher judgment.
-
-## Batch management
-
-Teachers can view the batches or sections assigned to them and inspect the students associated with those groups. Batch filtering is also used across the dashboard and analytics areas to keep data scoped to the relevant class.
-
-Teachers can use batch views to understand class composition, navigate to individual students, and keep exercises aligned with the correct group.
-
-## Source documentation
-
-This guide was migrated from the NeuroBridge GitBook documentation repository. The original source remains available in `teacher-guide/` in the GitHub repository for historical reference.
+  <Card title="Student analytics" icon="chart-mixed" href="/teacher-guide/student-analytics/overview">
+    Move from class trends to learner-level review.
+  </Card>
+</CardGroup>

@@ -60,7 +60,46 @@
         "group": "Teacher Guide",
         "icon": "chalkboard-user",
         "pages": [
-          "teacher-guide/overview"
+          "teacher-guide/overview",
+          {
+            "group": "Content Creation",
+            "pages": [
+              "teacher-guide/content-creation/overview",
+              "teacher-guide/content-creation/creating-exercises",
+              "teacher-guide/content-creation/preview-and-validation",
+              "teacher-guide/content-creation/publishing-content",
+              "teacher-guide/content-creation/export-options"
+            ]
+          },
+          {
+            "group": "Test Management",
+            "icon": "list-check",
+            "pages": [
+              "teacher-guide/exercise-management/overview",
+              "teacher-guide/exercise-management/exercise-list-and-status",
+              "teacher-guide/exercise-management/student-submissions",
+              "teacher-guide/exercise-management/exercise-analytics",
+              "teacher-guide/exercise-management/progress-tracking"
+            ]
+          },
+          {
+            "group": "Student Analytics",
+            "pages": [
+              "teacher-guide/student-analytics/overview",
+              "teacher-guide/student-analytics/class-performance-overview",
+              "teacher-guide/student-analytics/individual-student-analysis",
+              "teacher-guide/student-analytics/comparative-analytics",
+              "teacher-guide/student-analytics/progress-reports"
+            ]
+          },
+          {
+            "group": "Batch Management",
+            "pages": [
+              "teacher-guide/batch-management/overview",
+              "teacher-guide/batch-management/viewing-assigned-batches",
+              "teacher-guide/batch-management/student-management"
+            ]
+          }
         ]
       },
       {
@@ -75,6 +114,28 @@
         "icon": "screwdriver-wrench",
         "pages": [
           "maintenance-mode"
+        ]
+      },
+      {
+        "group": "Administrator Guide",
+        "icon": "user-gear",
+        "pages": [
+          "admin-guide/overview",
+          {
+            "group": "Dashboard details",
+            "icon": "gauge-high",
+            "pages": [
+              "admin-tour-guide/dashboard-overview/overview",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/total-students",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/total-teachers",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/total-sections",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/license-management",
+              "admin-tour-guide/dashboard-overview/overview-tables/student-overview-table",
+              "admin-tour-guide/dashboard-overview/overview-tables/teacher-overview-table"
+            ]
+          },
+          "admin-guide/user-management",
+          "admin-guide/sections-and-activity"
         ]
       }
     ]
