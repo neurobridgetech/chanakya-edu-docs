@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Chanakya AI Student quick start</title>
+  <desc id="desc">Six simple steps for a student to sign in, check assigned work, complete responses, submit safely, and learn from published results.</desc>
+  <rect width="1200" height="1600" fill="#f7fbff"/>
+  <rect width="1200" height="280" fill="#17213a"/>
+  <text x="76" y="90" font-family="Inter,Arial,sans-serif" font-size="29" font-weight="700" fill="#71b7ee">CHANAKYA AI • STUDENT</text>
+  <text x="76" y="164" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="800" fill="#fff">Complete your work</text>
+  <text x="76" y="218" font-family="Inter,Arial,sans-serif" font-size="26" fill="#d8dce6">A simple path from Dashboard to feedback</text>
+
+  <rect x="76" y="326" width="1048" height="98" rx="22" fill="#eaf5ff" stroke="#9cc8ee" stroke-width="2"/>
+  <text x="110" y="385" font-family="Inter,Arial,sans-serif" font-size="27" font-weight="800" fill="#246a9e">Start at edu.aichanakya.in</text>
+
+  <g font-family="Inter,Arial,sans-serif">
+    <rect x="76" y="478" width="500" height="230" rx="28" fill="#fff" stroke="#cfe5f7" stroke-width="2"/>
+    <circle cx="132" cy="536" r="34" fill="#2779bd"/><text x="132" y="546" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">1</text>
+    <text x="188" y="530" font-size="30" font-weight="800" fill="#17213a">Sign in</text>
+    <text x="112" y="585" font-size="21" fill="#667085">Use the ID and password supplied</text>
+    <text x="112" y="619" font-size="21" fill="#667085">by your school. Do not share them.</text>
+    <text x="112" y="663" font-size="19" font-weight="700" fill="#246a9e">You will land on Dashboard.</text>
+
+    <rect x="624" y="478" width="500" height="230" rx="28" fill="#fff" stroke="#cfe5f7" stroke-width="2"/>
+    <circle cx="680" cy="536" r="34" fill="#2779bd"/><text x="680" y="546" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">2</text>
+    <text x="736" y="530" font-size="30" font-weight="800" fill="#17213a">Check today’s work</text>
+    <text x="660" y="585" font-size="21" fill="#667085">Open Tests or Homework and check</text>
+    <text x="660" y="619" font-size="21" fill="#667085">the subject, status, and deadline.</text>
+    <text x="660" y="663" font-size="19" font-weight="700" fill="#246a9e">Choose the correct assignment.</text>
+
+    <rect x="76" y="752" width="500" height="230" rx="28" fill="#fff" stroke="#cfe5f7" stroke-width="2"/>
+    <circle cx="132" cy="810" r="34" fill="#2779bd"/><text x="132" y="820" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">3</text>
+    <text x="188" y="804" font-size="30" font-weight="800" fill="#17213a">Read before answering</text>
+    <text x="112" y="859" font-size="21" fill="#667085">Review the instructions, marks, and</text>
+    <text x="112" y="893" font-size="21" fill="#667085">attempt rules before you begin.</text>
+    <text x="112" y="937" font-size="19" font-weight="700" fill="#246a9e">Use Save or Next as shown.</text>
+
+    <rect x="624" y="752" width="500" height="230" rx="28" fill="#fff" stroke="#cfe5f7" stroke-width="2"/>
+    <circle cx="680" cy="810" r="34" fill="#2779bd"/><text x="680" y="820" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">4</text>
+    <text x="736" y="804" font-size="30" font-weight="800" fill="#17213a">Review every response</text>
+    <text x="660" y="859" font-size="21" fill="#667085">Check typed answers and uploaded</text>
+    <text x="660" y="893" font-size="21" fill="#667085">pages before final submission.</text>
+    <text x="660" y="937" font-size="19" font-weight="700" fill="#246a9e">Confirm files are readable.</text>
+
+    <rect x="76" y="1026" width="500" height="230" rx="28" fill="#fff" stroke="#cfe5f7" stroke-width="2"/>
+    <circle cx="132" cy="1084" r="34" fill="#2779bd"/><text x="132" y="1094" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">5</text>
+    <text x="188" y="1078" font-size="30" font-weight="800" fill="#17213a">Submit safely</text>
+    <text x="112" y="1133" font-size="21" fill="#667085">Submit once and wait for the success</text>
+    <text x="112" y="1167" font-size="21" fill="#667085">message or updated status.</text>
+    <text x="112" y="1211" font-size="19" font-weight="700" fill="#246a9e">Do not close during upload.</text>
+
+    <rect x="624" y="1026" width="500" height="230" rx="28" fill="#fff" stroke="#cfe5f7" stroke-width="2"/>
+    <circle cx="680" cy="1084" r="34" fill="#2779bd"/><text x="680" y="1094" text-anchor="middle" font-size="25" font-weight="800" fill="#fff">6</text>
+    <text x="736" y="1078" font-size="30" font-weight="800" fill="#17213a">Learn from results</text>
+    <text x="660" y="1133" font-size="21" fill="#667085">When results are published, review</text>
+    <text x="660" y="1167" font-size="21" fill="#667085">marks, feedback, and question detail.</text>
+    <text x="660" y="1211" font-size="19" font-weight="700" fill="#246a9e">Choose one next practice step.</text>
+  </g>
+
+  <rect x="76" y="1310" width="1048" height="170" rx="28" fill="#17213a"/>
+  <text x="112" y="1364" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="800" fill="#fff">Remember</text>
+  <text x="112" y="1408" font-family="Inter,Arial,sans-serif" font-size="22" fill="#d8dce6">If an upload or submission looks incomplete, tell your teacher.</text>
+  <text x="112" y="1445" font-family="Inter,Arial,sans-serif" font-size="22" fill="#d8dce6">Never include passwords or unrelated personal information.</text>
+  <text x="600" y="1550" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="21" fill="#667085">Detailed guide: docs.aichanakya.in/student-guide/overview</text>
+</svg>

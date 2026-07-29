@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1600" viewBox="0 0 1200 1600" role="img" aria-labelledby="title desc">
+  <title id="title">Getting started with Chanakya AI</title>
+  <desc id="desc">A role-neutral quick reference for signing in, navigating the workspace, getting help, managing settings, and signing out.</desc>
+  <rect width="1200" height="1600" fill="#fffaf6"/>
+  <rect width="1200" height="270" fill="#17213a"/>
+  <text x="76" y="92" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="700" fill="#ff6a2a">CHANAKYA AI</text>
+  <text x="76" y="168" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="800" fill="#ffffff">Getting started</text>
+  <text x="76" y="220" font-family="Inter,Arial,sans-serif" font-size="25" fill="#d8dce6">Five essentials for every Student, Teacher, and Administrator</text>
+
+  <rect x="76" y="318" width="1048" height="118" rx="24" fill="#fff0e9" stroke="#ffb99c" stroke-width="2"/>
+  <text x="110" y="365" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="700" fill="#a83b0e">OPEN THE PORTAL</text>
+  <text x="110" y="405" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="800" fill="#17213a">edu.aichanakya.in</text>
+
+  <line x1="140" y1="520" x2="140" y2="1280" stroke="#ffb99c" stroke-width="6"/>
+
+  <circle cx="140" cy="550" r="46" fill="#ff4a00"/><text x="140" y="561" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="800" fill="#fff">1</text>
+  <text x="222" y="543" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#17213a">Sign in with your assigned account</text>
+  <text x="222" y="585" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Enter the user ID and password supplied by your school.</text>
+  <text x="222" y="620" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Your assigned role opens the correct workspace automatically.</text>
+
+  <circle cx="140" cy="730" r="46" fill="#2779bd"/><text x="140" y="741" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="800" fill="#fff">2</text>
+  <text x="222" y="723" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#17213a">Start from Dashboard</text>
+  <text x="222" y="765" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Use the summary and next-action cards to decide where to go.</text>
+  <text x="222" y="800" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">On mobile, open the menu from the top-left button.</text>
+
+  <circle cx="140" cy="910" r="46" fill="#6557c5"/><text x="140" y="921" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="800" fill="#fff">3</text>
+  <text x="222" y="903" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#17213a">Use only the tools for your role</text>
+  <text x="222" y="945" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Students complete work, Teachers manage learning, and</text>
+  <text x="222" y="980" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Administrators manage organization access and sections.</text>
+
+  <circle cx="140" cy="1090" r="46" fill="#23804a"/><text x="140" y="1101" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="800" fill="#fff">4</text>
+  <text x="222" y="1083" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#17213a">Open Help or send feedback</text>
+  <text x="222" y="1125" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Include the screen and what happened. Never share passwords,</text>
+  <text x="222" y="1160" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">full answer sheets, or unnecessary learner information.</text>
+
+  <circle cx="140" cy="1270" r="46" fill="#a86c00"/><text x="140" y="1281" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="31" font-weight="800" fill="#fff">5</text>
+  <text x="222" y="1263" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" fill="#17213a">Protect your account</text>
+  <text x="222" y="1305" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">Use Settings to change your password. Always sign out when</text>
+  <text x="222" y="1340" font-family="Inter,Arial,sans-serif" font-size="22" fill="#667085">you finish on a shared device.</text>
+
+  <rect x="76" y="1412" width="1048" height="112" rx="24" fill="#17213a"/>
+  <text x="600" y="1460" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="800" fill="#fff">Need detailed instructions?</text>
+  <text x="600" y="1499" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="22" fill="#d8dce6">Visit docs.aichanakya.in and choose your role.</text>
+  <text x="600" y="1570" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="18" fill="#667085">Public quick reference • No credentials or personal data</text>
+</svg>
