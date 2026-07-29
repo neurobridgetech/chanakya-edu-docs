@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Teacher analysis decision loop</title>
+  <desc id="desc">A teacher reads overview signals, verifies question evidence, identifies learner groups, plans instruction, and reassesses.</desc>
+  <defs><marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#9aa1af"/></marker></defs>
+  <rect width="1400" height="520" rx="32" fill="#fffaf6"/>
+  <text x="700" y="62" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="750" fill="#17213a">Turn analysis into the next lesson</text>
+  <text x="700" y="96" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" fill="#667085">A dashboard signal is a starting point; verify the question and learner evidence before intervening.</text>
+  <g stroke="#9aa1af" stroke-width="4" fill="none" marker-end="url(#a)"><path d="M290 265H345"/><path d="M555 265H610"/><path d="M820 265H875"/><path d="M1085 265H1140"/></g>
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(80 170)"><circle cx="105" cy="95" r="100" fill="#17213a"/><text x="105" y="76" font-size="18" font-weight="750" fill="#fff">1. Scan</text><text x="105" y="104" font-size="15" fill="#d8dce6">Overview</text><text x="105" y="128" font-size="15" fill="#d8dce6">teacher brief</text></g>
+    <g transform="translate(345 170)"><circle cx="105" cy="95" r="100" fill="#fff0e9" stroke="#ffb99c" stroke-width="2"/><text x="105" y="76" font-size="18" font-weight="750" fill="#a83b0e">2. Verify</text><text x="105" y="104" font-size="15" fill="#667085">Question outcome</text><text x="105" y="128" font-size="15" fill="#667085">misconception</text></g>
+    <g transform="translate(610 170)"><circle cx="105" cy="95" r="100" fill="#f0efff" stroke="#b9b2f3" stroke-width="2"/><text x="105" y="76" font-size="18" font-weight="750" fill="#594ca7">3. Group</text><text x="105" y="104" font-size="15" fill="#667085">Extension</text><text x="105" y="128" font-size="15" fill="#667085">follow-up</text></g>
+    <g transform="translate(875 170)"><circle cx="105" cy="95" r="100" fill="#eaf5ff" stroke="#9cc8ee" stroke-width="2"/><text x="105" y="76" font-size="18" font-weight="750" fill="#246a9e">4. Act</text><text x="105" y="104" font-size="15" fill="#667085">Reteach</text><text x="105" y="128" font-size="15" fill="#667085">targeted practice</text></g>
+    <g transform="translate(1140 170)"><circle cx="105" cy="95" r="100" fill="#edf8f0" stroke="#a8d8bc" stroke-width="2"/><text x="105" y="76" font-size="18" font-weight="750" fill="#23804a">5. Check</text><text x="105" y="104" font-size="15" fill="#667085">New evidence</text><text x="105" y="128" font-size="15" fill="#667085">next assessment</text></g>
+  </g>
+  <path d="M1245 375C1245 455 185 455 185 375" fill="none" stroke="#9aa1af" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#a)"/>
+</svg>

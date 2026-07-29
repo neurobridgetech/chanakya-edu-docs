@@ -1,76 +1,65 @@
 ---
 title: "Teacher Guide"
-description: "Create tests and homework, monitor submissions, review grading, publish results, and use class analytics."
+description: "Plan, assign, review, publish, and act on learning evidence in the Chanakya AI Teacher workspace."
 sidebarTitle: "Overview"
 ---
 
 # Teacher guide
 
-The teacher workspace is organized around a simple cycle: plan work, assign it, monitor completion, review grading, and use the results to decide what comes next.
+The Teacher workspace connects daily planning with assessment evidence. Start on **Dashboard**, create or upload work in **Tests** and **Homework**, monitor submissions, then use **Class analysis** to decide what to reteach.
+
+<img src="/images/diagrams/teacher-workspace-map.svg" alt="Teacher workspace map connecting Dashboard to Tests and Homework, Class Analysis, Sections, and account tools." />
+
+## Primary navigation
+
+<img src="/images/app/teacher/mobile-navigation.png" alt="Teacher mobile navigation with Dashboard, Tests, Homework, Sections, and Help." />
+
+- **Dashboard** — choose a section and subject, then scan workload and performance signals.
+- **Tests** — create, upload, preview, filter, monitor, review, and analyze tests.
+- **Homework** — upload assignments, set a duration, and follow the same submission and analysis workflow.
+- **Sections** — view assigned sections, subjects, student counts, and rosters.
+- **Help** — open support resources.
+- **Profile menu** — open feedback, settings, or logout.
+
+## The working cycle
 
 <img src="/images/diagrams/teacher-assessment-lifecycle.svg" alt="Teacher assessment lifecycle from creation and validation through assignment, review, publication, and instructional follow-up." />
 
 <Steps>
-  <Step title="Choose the class context">
-    On **Dashboard**, choose the assigned section and subject. The summary cards and insights update to the selected class context.
+  <Step title="Set the teaching context">
+    On **Dashboard**, choose the section and subject. Cards and insights update to that context.
   </Step>
-  <Step title="Create or upload work">
-    Open **Tests** or **Homework**. Create content from curriculum selections, or upload a paper when that mode is available.
+  <Step title="Create or upload">
+    Use **New Test** for a generated test or uploaded paper. Use **New Homework** for a PDF assignment.
   </Step>
-  <Step title="Review before release">
-    Preview the generated or extracted questions. Check question text, answer keys, marks, instructions, and dates before students receive the work.
+  <Step title="Validate before release">
+    Preview the paper, answer key, marks, dates, and assigned audience. AI-generated or extracted content requires teacher review.
   </Step>
-  <Step title="Monitor and analyze">
-    Track submissions from the management list. Open **View students** for learner-level status and **Class analysis** after graded results are available.
+  <Step title="Monitor and review">
+    Open **View students** for submission status. Review learner evidence and re-check only when the underlying response justifies it.
+  </Step>
+  <Step title="Publish and act">
+    After reviewing graded results, publish them and use **Class analysis** to plan reteaching, extension, or targeted practice.
   </Step>
 </Steps>
 
-## Primary navigation
+<Warning>
+  Publishing changes result visibility for learners. Confirm the assessment, grading evidence, and intended section before publishing.
+</Warning>
 
-- **Dashboard** shows class size, class average, pending work, top performers, students needing attention, and chapter-level performance.
-- **Tests** is the management table for creating, filtering, previewing, and analyzing tests.
-- **Homework** provides the corresponding workflow for assignments.
-- **Sections** lists assigned sections and their students.
-- **Help** opens assistance resources.
-- The profile menu provides **Settings**, feedback, and logout.
+## What is new
 
-## Test lifecycle
+<img src="/images/app/teacher/whats-new.png" alt="Teacher What's New panel describing question deletion, result review and publication, deleted-test restoration, and re-checks." />
 
-The Tests table can show processing, extraction failure, pending, approved, rejected, graded, published, and deleted states. Available actions change with the state.
-
-<img src="/images/app/teacher-test-management.png" alt="Test management table with search, class, section, subject, type and status filters, lifecycle badges, and row actions." />
-
-<Note>
-  Screenshots use demonstration data. Your assessment names, sections, dates, counts, and statuses will differ.
-</Note>
-
-<Info>
-  **Class analysis** is available only when the assessment has enough completed, graded data. A disabled action usually means the test has not reached that stage.
-</Info>
-
-## Quality and privacy responsibilities
-
-- Validate generated and extracted content before assignment.
-- Review surprising marks before publication.
-- Use learner data only for the intended educational purpose.
-- Avoid sharing rosters, answer sheets, or results in public screenshots.
-- Confirm the learner and assessment before editing marks or starting a re-check.
-- Keep answer keys separate from student-facing exports.
+The current staging experience adds question deletion, review-and-publish controls, re-checks from the student list, and administrator-assisted restoration of deleted tests. Availability can depend on the assessment state and your institution’s configuration.
 
 <CardGroup cols={2}>
-  <Card title="Dashboard" icon="chart-line" href="/teacher-guide/dashboard-overview/overview">
-    Read class metrics and performance signals.
-  </Card>
-
-  <Card title="Create content" icon="pen-to-square" href="/teacher-guide/content-creation/overview">
-    Configure, upload, preview, and release assessments.
-  </Card>
-
-  <Card title="Manage tests" icon="list-check" href="/teacher-guide/exercise-management/exercise-list-and-status">
-    Search, filter, and act on test records.
-  </Card>
-
-  <Card title="Student analytics" icon="chart-mixed" href="/teacher-guide/student-analytics/overview">
-    Move from class trends to learner-level review.
-  </Card>
+  <Card title="Dashboard" icon="chart-line" href="/teacher-guide/dashboard-overview/overview">Read the teaching-day summary.</Card>
+  <Card title="Create a test" icon="pen-to-square" href="/teacher-guide/content-creation/creating-exercises">Configure or upload an assessment.</Card>
+  <Card title="Tests and statuses" icon="list-check" href="/teacher-guide/exercise-management/exercise-list-and-status">Choose the safe next action.</Card>
+  <Card title="Class analysis" icon="chart-mixed" href="/teacher-guide/exercise-management/exercise-analytics">Turn evidence into follow-up.</Card>
 </CardGroup>
+
+<Note>
+  Screenshots use staging demonstration data. Names, dates, counts, subjects, and available actions will differ in your workspace.
+</Note>

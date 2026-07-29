@@ -1,59 +1,35 @@
 ---
-title: "Creating Exercises"
-description: "Create a test from curriculum selections or upload an existing paper in the teacher workspace."
-sidebarTitle: "Create a test"
+title: "Creating Tests"
+description: "Create a test from curriculum settings or upload an existing paper."
+sidebarTitle: "Creating tests"
 ---
 
 # Create a test
 
-Open **Tests**, then select **New Test**.
+Open **Tests**, select **New Test**, and choose a mode.
 
-<img src="/images/app/teacher-create-test.png" alt="Create Test form with Create Test and Upload Paper modes, class, section, subject, question count, test name, date, and chapter fields." />
+## Create Test mode
 
-<Note>
-  The screenshot uses a demonstration class and date. Select the values assigned to your organization.
-</Note>
+<img src="/images/app/teacher/create-test.png" alt="Create Test mode with class, batch, subject, question count, optional name, date, and chapter." />
 
-<Tabs>
-  <Tab title="Create Test">
-    <Steps>
-      <Step title="Choose a class">
-        Select the curriculum and class. The available sections are loaded for that class.
-      </Step>
-      <Step title="Choose sections and a subject">
-        Select one or more sections, then choose the subject. Subject options remain unavailable until a section is selected.
-      </Step>
-      <Step title="Set the size">
-        Choose a standard question count or **CUSTOM**. Add an optional test name that students will recognize.
-      </Step>
-      <Step title="Choose the date and chapters">
-        Set the relevant date and curriculum chapters. Additional fields can appear when **Advanced Option** is enabled.
-      </Step>
-      <Step title="Submit and review">
-        The **Submit** button becomes available after required fields are complete. Wait for content generation, then preview the paper.
-      </Step>
-    </Steps>
-  </Tab>
-  <Tab title="Upload Paper">
-    Upload the supported paper file, provide the required class and assignment context, and start extraction. Track the record in **Tests** while processing completes.
-  </Tab>
-</Tabs>
+<Steps>
+  <Step title="Choose the audience">Select class, section, and subject. Later fields can remain unavailable until the earlier selection is complete.</Step>
+  <Step title="Set the assessment">Choose the number of questions, optional display name, date, and chapters.</Step>
+  <Step title="Open advanced options">Set difficulty, syllabus scope, and question-type distribution when the default mix is not suitable.</Step>
+  <Step title="Generate and wait">Submit the request once. Generation can take time; monitor its status in the Tests list.</Step>
+</Steps>
 
-## Validation behavior
+<img src="/images/app/teacher/advanced-test-options.png" alt="Advanced test options for difficulty, topic or chapter scope, and question distribution." />
 
-The form disables dependent controls until their prerequisites are selected. For example, a subject cannot be selected before a section. A message beneath **Submit** identifies the next missing requirement.
+## Upload Paper mode
 
-<Tip>
-  Use a short, specific test name such as “Algebra unit check” instead of a generic name. It is easier to find later in the management table.
-</Tip>
+<img src="/images/app/teacher/upload-test-paper.png" alt="Upload Paper form with assessment details, required question-key PDF, and optional answer-key PDF." />
 
-## Create Test or Upload Paper?
+- Upload the **Question Key** as a PDF.
+- Add an **Answer Key** when available; verify extracted answers before grading.
+- Use a clear scan with readable text, upright pages, and complete diagrams.
+- Do not upload a learner’s answered paper as the master question key.
 
-| Choose | Use it when | Review carefully |
-| --- | --- | --- |
-| **Create Test** | You want Chanakya AI to prepare content from class, subject, chapter, and question settings. | Curriculum scope, generated questions, answers, marks, and total. |
-| **Upload Paper** | You already have a paper that should be extracted into the platform. | Page order, OCR accuracy, symbols, options, images, answers, and marks. |
-
-## Before leaving the page
-
-After submitting, wait for the created record or processing state to appear. Do not submit the form repeatedly because the first response is slow. Open **Tests** to track the new item.
+<Warning>
+  Creating or uploading does not replace review. Extraction and generation can misread notation, diagrams, options, or marks.
+</Warning>

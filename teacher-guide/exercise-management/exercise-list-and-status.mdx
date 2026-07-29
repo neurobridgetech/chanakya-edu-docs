@@ -1,78 +1,40 @@
 ---
-title: "Exercise List & Status"
-description: "Search and filter tests, interpret lifecycle states, and use preview, student, analysis, and action controls."
-sidebarTitle: "List and status"
+title: "Test List & Status"
+description: "Search and filter tests, interpret statuses, and use row actions safely."
+sidebarTitle: "Test list and status"
 ---
 
-# Manage tests
+# Test list and status
 
-Open **Tests** to view the assessment management table.
-
-<img src="/images/app/teacher-test-management.png" alt="Teacher test management table showing search, dependent filters, status badges, submission counts, and actions." />
-
-<Note>
-  The screenshot uses demonstration data. Treat the labels and controls as a guide; your records will be different.
-</Note>
+<img src="/images/app/teacher/test-list-actions.png" alt="Manage Tests heading and New Test action." />
 
 ## Find a test
 
-You can search by test name, subject, or section. Combine search with filters for:
+<img src="/images/app/teacher/test-list-filters.png" alt="Test list search and filters for class, batch, subject, test type, and status." />
 
-- Class.
-- Section.
-- Subject.
-- Test type.
-- Status.
+Search by assessment name, subject, or section. Use filters from broad to narrow: **Class → Batch → Subject**, then **Test Type** and **Status**.
 
-Choose the class before the section, and the section before the subject. This prevents invalid filter combinations.
-
-## Understand statuses
-
-| Status | Meaning | Recommended action |
-| --- | --- | --- |
-| **Processing** | An uploaded or generated paper is still being prepared. | Wait and refresh later. |
-| **Extraction Failed** | The uploaded paper could not be converted into usable questions. | Review the source and upload again. |
-| **Pending** | The test exists but has not completed the review or grading lifecycle. | Preview it and check student status. |
-| **Approved** | Review has accepted the content or result for the next stage. | Continue the configured release workflow. |
-| **Rejected** | Review found an issue. | Correct the content or grading decision. |
-| **Graded** | Submitted work has been graded. | Review students and class analysis. |
-| **Published** | Results are available to students. | Monitor questions and follow-up needs. |
-| **Deleted** | The test is outside the active list but may be restorable by an authorized administrator. | Restore only when needed. |
+<img src="/images/app/teacher/test-list-columns.png" alt="Test table columns for name, class, due date, submissions, status, and actions." />
 
 ## Row actions
 
-- **Preview exercise** opens the paper.
-- **View students** shows assignment and submission status by learner.
-- **Class analysis** opens aggregate insights when graded data is available.
-- **More actions** contains lifecycle-specific operations.
+<img src="/images/app/teacher/test-row-actions.png" alt="Test row actions for Preview, View students, Class analysis, and More." />
 
-<Info>
-  Disabled actions are state-dependent. For example, analysis is unavailable before completed graded submissions exist.
-</Info>
+- **Preview** — inspect the paper and exports.
+- **View students** — review submission count, attempts, marks, and learner-level actions.
+- **Class analysis** — open aggregate analysis after enough graded data exists.
+- **More** — open state-dependent grading, editing, and deletion actions.
 
-## Before using More actions
+<img src="/images/app/teacher/test-more-actions.png" alt="More actions menu with Start Grading, Edit Test, and Delete." />
 
-The available menu depends on the record's state and your permissions. Before deleting, restoring, approving, rejecting, or publishing:
+An unavailable action usually means a prerequisite is missing. For example, analysis requires graded submissions, and grading cannot start until eligible work exists.
 
-1. Confirm the assessment name and section.
-2. Check its current status.
-3. Review submission and grading activity.
-4. Confirm what students can currently see.
-5. Complete the smallest action needed.
+## Mobile
 
-## Common situations
+<img src="/images/app/teacher/mobile-test-card.png" alt="Responsive test card with dates, submissions, status, and Preview, Students, Analysis, and More actions." />
 
-<AccordionGroup>
-  <Accordion title="An uploaded paper remains in Processing">
-    Wait for extraction to complete before previewing or assigning it. If the status does not change after a reasonable period, note the assessment name and contact support.
-  </Accordion>
-  <Accordion title="Extraction Failed appears">
-    Check that the uploaded file is readable, complete, correctly oriented, and in the supported format. Correct the source and upload it again.
-  </Accordion>
-  <Accordion title="Class analysis is disabled">
-    The assessment needs completed, graded submission data before aggregate analysis becomes available.
-  </Accordion>
-  <Accordion title="Students cannot see a graded result">
-    Grading and publication are separate. Review the result and complete the publish step when it is ready.
-  </Accordion>
-</AccordionGroup>
+On mobile, each table row becomes a card. The actions and status meaning remain the same.
+
+<Note>
+  A deleted test may require an administrator to restore it. Do not delete work as a way to hide an incorrect result; review the result and use the supported correction workflow.
+</Note>
