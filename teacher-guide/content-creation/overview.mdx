@@ -1,43 +1,33 @@
 ---
 title: "Content Creation"
-description: "Choose the right Chanakya AI creation workflow for tests and homework, then validate content before release."
+description: "Choose the right creation path for tests and homework, then validate before assignment."
 sidebarTitle: "Overview"
 ---
 
-# Create learning content
+# Content creation
 
-Teachers can create tests and homework from structured curriculum selections. Tests also support an **Upload Paper** mode when enabled.
+Teachers have three practical paths:
 
-<CardGroup cols={2}>
-  <Card title="Create from selections" icon="wand-magic-sparkles">
-    Choose class, section, subject, question count, date, and curriculum scope.
-  </Card>
+| Need | Start from | Input |
+|---|---|---|
+| Build a structured test | **Tests → New Test → Create Test** | Class, section, subject, chapters, difficulty, and distribution |
+| Use an existing paper | **Tests → New Test → Upload Paper** | Question-key PDF and optional answer-key PDF |
+| Assign PDF homework | **Homework → New Homework** | Section, subject, duration, question-key PDF, optional answer-key PDF |
 
-  <Card title="Upload a paper" icon="file-arrow-up">
-    Upload an existing paper for extraction, then review the processing result.
-  </Card>
-</CardGroup>
+<img src="/images/app/teacher/create-test.png" alt="Create Test form with class, batch, subject, question count, name, date, and chapter fields." />
 
-## Before you begin
+<Tip>
+  Start with the audience: confirm class, section, and subject before configuring the paper. This prevents a polished assessment from being assigned to the wrong learners.
+</Tip>
 
-Confirm:
+## Quality gate
 
-- The intended class and section.
-- The subject and curriculum scope.
-- The expected question count and marks.
-- The due date or availability window.
-- Whether the work is a test or homework.
-- Whether students should see results immediately after grading or only after publication.
+Before release, verify:
 
-## Safe publishing checklist
+- assessment name and type;
+- section, subject, start date, and due date;
+- question count, marks, and attempt rules;
+- question wording, diagrams, answer options, and answer key;
+- the student-facing export does not expose answers.
 
-- Read every extracted or generated question.
-- Verify answer keys, marks, and optional alternatives.
-- Check images and mathematical notation.
-- Confirm the selected students or sections.
-- Check dates and instructions.
-- Preview the student-facing paper.
-
-<Warning>
-  Do not publish an uploaded paper while its status is **Processing** or **Extraction Failed**. Review the completed extraction first, or correct the source file and upload it again.
-</Warning>
+Continue to [Creating tests](/teacher-guide/content-creation/creating-exercises), [Preview and validation](/teacher-guide/content-creation/preview-and-validation), or [Homework](/teacher-guide/exercise-management/homework-management).

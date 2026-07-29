@@ -1,45 +1,54 @@
 ---
 title: "Dashboard Overview"
-description: "Understand the current teacher dashboard, class selectors, summary metrics, and performance insight panels."
+description: "Choose a teaching context and read workload, performance, learner, and chapter signals."
 sidebarTitle: "Overview"
 ---
 
-# Teacher dashboard
+# Dashboard overview
 
-The dashboard answers two questions: what needs attention today, and how is the selected class performing?
+Dashboard answers two questions: **What needs attention today?** and **What should I teach next?**
 
-## Set the class context
+## Choose the context
 
-Use the class and subject selectors near the top of the dashboard. Metrics, upcoming work, performers, and chapter analysis are scoped to that selection.
+<img src="/images/app/teacher/dashboard-controls.png" alt="Teacher Dashboard controls for section, subject, and Create test." />
 
-<Note>
-  If a selector contains only one option, it is already fixed to your current assignment.
-</Note>
+1. Choose an assigned **section**.
+2. Choose a **subject** available for that section.
+3. Confirm the context before interpreting any metric.
+4. Select **Create test** when you are ready to plan an assessment for it.
 
-## Summary cards
+## Scan the teaching day
 
-- **Total Students** shows the number of learners in the selected class.
-- **Class Average** summarizes graded performance.
-- **Pending Homeworks** counts homework awaiting completion or processing.
-- **Pending Tests** counts tests that have not completed their lifecycle.
+<img src="/images/app/teacher/dashboard-metrics.png" alt="Teacher Dashboard cards for total students, class average, pending homework, and pending tests." />
 
-## Performance insights
+The summary cards show class size, class average, pending homework, and pending tests. Counts reflect the selected section and subject; they are not institution-wide totals.
 
-The dashboard can include:
+<img src="/images/app/teacher/upcoming-tests.png" alt="Upcoming Tests panel with an empty state and Create test action." />
 
-- Current class standing and performance trend.
-- Top performers.
-- Students who may need attention.
-- Chapter-level performance bands.
-- Upcoming tests and direct creation actions.
+Use **Upcoming Tests** to confirm scheduled work. An empty state means no upcoming test matches the current context.
 
-Empty states are expected before students complete graded work. They do not indicate that data has been lost.
+## Move from signals to action
 
-## Recommended daily routine
+<img src="/images/app/teacher/performance-insights.png" alt="Class Performance and Performance Trend panels on the Teacher Dashboard." />
 
-1. Select the class and subject.
-2. Check pending work and upcoming tests.
-3. Review **Need Attention** before **Top Performers**.
-4. Inspect chapter analysis for topics below the expected range.
-5. Open **Tests** or **Homework** to review the underlying submissions.
-6. Create follow-up work when the evidence supports it.
+<img src="/images/app/teacher/learner-signals.png" alt="Top Performers and Need Attention panels in a processing state." />
+
+<img src="/images/app/teacher/chapter-analysis.png" alt="Chapter Analysis with performance bands and sorting control." />
+
+- Use **Class Performance** for the current overall level.
+- Use **Performance Trend** to look for change over time, not a single-test conclusion.
+- Use **Top Performers** for extension opportunities.
+- Use **Need Attention** as a prompt to inspect learner evidence.
+- Use **Chapter Analysis** to choose revision priorities.
+
+<Info>
+  “Processing” means the insight is not ready. Wait for the data to finish processing before making a conclusion.
+</Info>
+
+## Mobile layout
+
+<img src="/images/app/teacher/mobile-dashboard-controls.png" alt="Responsive Teacher Dashboard controls on a mobile viewport." />
+
+<img src="/images/app/teacher/mobile-dashboard-metrics.png" alt="Responsive Teacher Dashboard summary cards on mobile." />
+
+On a phone, open the menu from the top bar. Controls and cards stack vertically; the meaning of the data does not change.

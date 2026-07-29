@@ -111,6 +111,7 @@
             "pages": [
               "teacher-guide/exercise-management/overview",
               "teacher-guide/exercise-management/exercise-list-and-status",
+              "teacher-guide/exercise-management/homework-management",
               "teacher-guide/exercise-management/student-submissions",
               "teacher-guide/exercise-management/exercise-analytics",
               "teacher-guide/exercise-management/progress-tracking"
@@ -127,11 +128,17 @@
             ]
           },
           {
-            "group": "Batch Management",
+            "group": "Sections",
             "pages": [
               "teacher-guide/batch-management/overview",
               "teacher-guide/batch-management/viewing-assigned-batches",
               "teacher-guide/batch-management/student-management"
+            ]
+          },
+          {
+            "group": "Account and Support",
+            "pages": [
+              "teacher-guide/account-and-support"
             ]
           }
         ]
