@@ -3,7 +3,6 @@
   <desc id="desc">The Teacher Dashboard connects to Tests, Homework, Sections, class analysis, and account tools.</desc>
   <defs>
     <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#a9afbd"/></marker>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#17213a" flood-opacity=".08"/></filter>
   </defs>
   <rect width="1400" height="620" rx="32" fill="#fffaf6"/>
   <text x="700" y="62" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="32" font-weight="750" fill="#17213a">Teacher workspace</text>
@@ -13,7 +12,7 @@
     <path d="M700 255V366"/>
     <path d="M700 255V320H1165V366"/>
   </g>
-  <g font-family="Inter,Arial,sans-serif" filter="url(#shadow)">
+  <g font-family="Inter,Arial,sans-serif">
     <rect x="490" y="135" width="420" height="120" rx="24" fill="#17213a"/>
     <text x="700" y="183" text-anchor="middle" font-size="24" font-weight="750" fill="#fff">Dashboard</text>
     <text x="700" y="218" text-anchor="middle" font-size="16" fill="#d8dce6">Section context • daily workload • class signals</text>
