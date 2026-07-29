@@ -193,6 +193,7 @@
         "group": "Platform Help",
         "icon": "life-ring",
         "pages": [
+          "resources/quick-reference-handouts",
           "maintenance-mode"
         ]
       }
