@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "luma",
   "name": "Chanakya AI",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF4A00",
+    "light": "#FF4A00",
+    "dark": "#FF6A2A"
   },
   "favicon": "/logo/ChanakyaLogoMark.svg",
   "navigation": {
