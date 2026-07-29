@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Student submission safety checklist</title>
+  <desc id="desc">A four-part checklist for preparing, uploading, reviewing, and confirming an assessment submission.</desc>
+  <rect width="1200" height="650" rx="28" fill="#FFF8F4"/>
+  <text x="60" y="70" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#172033">Submit without losing work</text>
+  <text x="60" y="106" font-family="Inter,Arial,sans-serif" font-size="18" fill="#596276">Use this four-check sequence before the final button.</text>
+
+  <g font-family="Inter,Arial,sans-serif">
+    <g>
+      <rect x="60" y="150" width="250" height="340" rx="24" fill="#FFF" stroke="#F0C4B1" stroke-width="2"/>
+      <circle cx="105" cy="198" r="25" fill="#C73500"/>
+      <text x="105" y="207" text-anchor="middle" font-size="24" font-weight="700" fill="#FFF">1</text>
+      <text x="145" y="206" font-size="23" font-weight="700" fill="#172033">Prepare</text>
+      <path d="M90 252l10 10 20-24 M90 302l10 10 20-24 M90 352l10 10 20-24" fill="none" stroke="#087A35" stroke-width="5" stroke-linecap="round"/>
+      <text x="136" y="258" font-size="16" fill="#596276">Stable connection</text>
+      <text x="136" y="308" font-size="16" fill="#596276">Enough time left</text>
+      <text x="136" y="358" font-size="16" fill="#596276">One active tab</text>
+      <text x="90" y="426" font-size="15" fill="#8D2C08">Keep the attempt open</text>
+      <text x="90" y="450" font-size="15" fill="#8D2C08">during uploads.</text>
+    </g>
+    <g>
+      <rect x="337" y="150" width="250" height="340" rx="24" fill="#FFF" stroke="#F0C4B1" stroke-width="2"/>
+      <circle cx="382" cy="198" r="25" fill="#C73500"/>
+      <text x="382" y="207" text-anchor="middle" font-size="24" font-weight="700" fill="#FFF">2</text>
+      <text x="422" y="206" font-size="23" font-weight="700" fill="#172033">Upload</text>
+      <rect x="378" y="248" width="168" height="105" rx="14" fill="#FFF8F4" stroke="#C73500" stroke-width="3" stroke-dasharray="8 7"/>
+      <path d="M462 320v-45 M444 293l18-18 18 18" fill="none" stroke="#C73500" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="367" y="398" font-size="16" fill="#596276">Use the requested</text>
+      <text x="367" y="424" font-size="16" fill="#596276">file type and order.</text>
+      <text x="367" y="450" font-size="16" fill="#596276">Wait for completion.</text>
+    </g>
+    <g>
+      <rect x="614" y="150" width="250" height="340" rx="24" fill="#FFF" stroke="#F0C4B1" stroke-width="2"/>
+      <circle cx="659" cy="198" r="25" fill="#C73500"/>
+      <text x="659" y="207" text-anchor="middle" font-size="24" font-weight="700" fill="#FFF">3</text>
+      <text x="699" y="206" font-size="23" font-weight="700" fill="#172033">Review</text>
+      <rect x="655" y="248" width="168" height="108" rx="12" fill="#F7F9FC" stroke="#CBD2DE" stroke-width="2"/>
+      <path d="M681 278h116 M681 302h90 M681 326h105" stroke="#596276" stroke-width="5" stroke-linecap="round"/>
+      <text x="644" y="398" font-size="16" fill="#596276">Every question visited</text>
+      <text x="644" y="424" font-size="16" fill="#596276">Selections checked</text>
+      <text x="644" y="450" font-size="16" fill="#596276">Attachment readable</text>
+    </g>
+    <g>
+      <rect x="891" y="150" width="250" height="340" rx="24" fill="#FFF" stroke="#087A35" stroke-width="3"/>
+      <circle cx="936" cy="198" r="25" fill="#087A35"/>
+      <text x="936" y="207" text-anchor="middle" font-size="24" font-weight="700" fill="#FFF">4</text>
+      <text x="976" y="206" font-size="23" font-weight="700" fill="#172033">Confirm</text>
+      <circle cx="1016" cy="302" r="55" fill="#EAF8EF"/>
+      <path d="M986 302l20 20 40-48" fill="none" stroke="#087A35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="921" y="398" font-size="16" fill="#596276">Submit once.</text>
+      <text x="921" y="424" font-size="16" fill="#596276">Wait for the success</text>
+      <text x="921" y="450" font-size="16" fill="#596276">screen or new status.</text>
+    </g>
+
+    <rect x="170" y="535" width="860" height="62" rx="31" fill="#172033"/>
+    <text x="600" y="574" text-anchor="middle" font-size="18" font-weight="700" fill="#FFF">No confirmation? Keep the tab open, check your connection, and ask your teacher before trying again.</text>
+  </g>
+</svg>

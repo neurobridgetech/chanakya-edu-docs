@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+  <title id="title">Student assessment status and action map</title>
+  <desc id="desc">Assessment states from upcoming to published, with the action a student should take at each stage.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#A9B0BD"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="570" rx="28" fill="#F7F9FC"/>
+  <text x="60" y="68" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#172033">What each assessment status means</text>
+  <text x="60" y="104" font-family="Inter,Arial,sans-serif" font-size="18" fill="#596276">The button changes as your work moves through the assessment lifecycle.</text>
+
+  <g font-family="Inter,Arial,sans-serif">
+    <path d="M220 230H278 M432 230H490 M644 230H702 M856 230H914" stroke="#A9B0BD" stroke-width="4" marker-end="url(#arrow)"/>
+
+    <g>
+      <rect x="55" y="155" width="165" height="150" rx="20" fill="#FFF" stroke="#CBD2DE" stroke-width="2"/>
+      <circle cx="92" cy="193" r="18" fill="#EEF2F7"/>
+      <text x="92" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#596276">1</text>
+      <text x="119" y="200" font-size="21" font-weight="700" fill="#172033">Upcoming</text>
+      <text x="78" y="242" font-size="15" fill="#596276">Check start time</text>
+      <text x="78" y="268" font-size="15" fill="#596276">and prepare.</text>
+    </g>
+    <g>
+      <rect x="267" y="155" width="165" height="150" rx="20" fill="#FFF" stroke="#C73500" stroke-width="3"/>
+      <circle cx="304" cy="193" r="18" fill="#FFF0E8"/>
+      <text x="304" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#C73500">2</text>
+      <text x="331" y="200" font-size="21" font-weight="700" fill="#172033">Available</text>
+      <text x="290" y="242" font-size="15" fill="#596276">Read instructions,</text>
+      <text x="290" y="268" font-size="15" font-weight="700" fill="#C73500">then Start.</text>
+    </g>
+    <g>
+      <rect x="479" y="155" width="165" height="150" rx="20" fill="#FFF" stroke="#D69500" stroke-width="2"/>
+      <circle cx="516" cy="193" r="18" fill="#FFF5D9"/>
+      <text x="516" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#9A6700">3</text>
+      <text x="543" y="200" font-size="21" font-weight="700" fill="#172033">In progress</text>
+      <text x="502" y="242" font-size="15" fill="#596276">Use the same device</text>
+      <text x="502" y="268" font-size="15" font-weight="700" fill="#9A6700">and Continue.</text>
+    </g>
+    <g>
+      <rect x="691" y="155" width="165" height="150" rx="20" fill="#FFF" stroke="#5765D9" stroke-width="2"/>
+      <circle cx="728" cy="193" r="18" fill="#EEF0FF"/>
+      <text x="728" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#3949AB">4</text>
+      <text x="755" y="200" font-size="21" font-weight="700" fill="#172033">Submitted</text>
+      <text x="714" y="242" font-size="15" fill="#596276">Wait for grading</text>
+      <text x="714" y="268" font-size="15" fill="#596276">and publication.</text>
+    </g>
+    <g>
+      <rect x="903" y="155" width="242" height="150" rx="20" fill="#FFF" stroke="#087A35" stroke-width="3"/>
+      <circle cx="940" cy="193" r="18" fill="#EAF8EF"/>
+      <text x="940" y="200" text-anchor="middle" font-size="20" font-weight="700" fill="#087A35">5</text>
+      <text x="967" y="200" font-size="21" font-weight="700" fill="#172033">Published</text>
+      <text x="926" y="242" font-size="15" fill="#596276">Select</text>
+      <text x="973" y="242" font-size="15" font-weight="700" fill="#087A35">View analysis</text>
+      <text x="926" y="268" font-size="15" fill="#596276">to review feedback.</text>
+    </g>
+
+    <rect x="55" y="355" width="1090" height="142" rx="20" fill="#FFF3ED" stroke="#F0C4B1" stroke-width="2"/>
+    <text x="88" y="398" font-size="21" font-weight="700" fill="#8D2C08">If the action you expect is missing</text>
+    <text x="88" y="433" font-size="16" fill="#596276">Check the date and status, refresh once, and note the assessment title and visible message.</text>
+    <text x="88" y="463" font-size="16" fill="#596276">Then contact your teacher. Never send your password or a public link to your full answer sheet.</text>
+  </g>
+</svg>
