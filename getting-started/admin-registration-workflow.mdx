@@ -1,41 +1,70 @@
 ---
-title: "Admin Registration Workflow"
+title: "Administrator First Steps"
+description: "Verify organization capacity, accounts, and section assignments before making access-changing updates."
+sidebarTitle: "Administrator first steps"
 ---
 
-# Admin Registration Workflow
+# Administrator first steps
 
-## Quick Start
+Administrator actions affect other people's access. Start by confirming the organization and subscription context, then make the smallest necessary change.
 
-1. **Login & Review Dashboard**: Access your pre-configured organization overview.
+<img src="/images/diagrams/admin-operations-map.svg" alt="Administrator workflow: review subscription capacity, manage users and sections, then verify access and activity." />
 
-<figure>
-  <img src="https://raw.githubusercontent.com/neurobridgetech/gitbook-docs/main/.gitbook/assets/Screenshot%202025-08-21%20at%205.10.36%E2%80%AFPM%20%281%29.png" alt="Admin dashboard" />
+## 1. Review the dashboard
 
-  <figcaption />
-</figure>
+Check:
 
-2. **Manage Students**: Add, view, and organize student accounts.
+- Total students, teachers, and sections.
+- The selected subscription.
+- Used and available capacity.
+- Renewal or expiry information.
+- Any warning that needs attention.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/neurobridgetech/gitbook-docs/main/.gitbook/assets/Screenshot%202025-08-21%20at%204.54.37%E2%80%AFPM.png" alt="Student management" />
+If multiple subscriptions appear, select the intended one before interpreting limits.
 
-  <figcaption />
-</figure>
+## 2. Search before creating
 
-3. **Manage Teachers**: Create and assign teacher accounts.
+Use **Students** or **Teachers** to search by the provided identifier and name. Confirm that the person does not already have an account.
 
-<figure>
-  <img src="https://raw.githubusercontent.com/neurobridgetech/gitbook-docs/main/.gitbook/assets/Screenshot%202025-08-21%20at%204.54.53%E2%80%AFPM%20%281%29.png" alt="Teacher management" />
+Duplicate accounts can split history, consume capacity, and create confusing section membership.
 
-  <figcaption />
-</figure>
+## 3. Verify identity before changing access
 
-4. **Create Sections**: Set up batches and assign users.
+Before editing, resetting a password, or removing an account, confirm:
 
-<figure>
-  <img src="https://raw.githubusercontent.com/neurobridgetech/gitbook-docs/main/.gitbook/assets/Screenshot%202025-08-21%20at%204.55.14%E2%80%AFPM%20%281%29.png" alt="Section management" />
+- The unique account identifier.
+- The organization.
+- The class or teaching context.
+- The intended section.
+- Whether active work depends on the account.
 
-  <figcaption />
-</figure>
+<Warning>
+  Never publish or share a user's password. Follow your organization's approved identity-verification and password-reset process.
+</Warning>
 
-Dashboard → Students → Teachers → Sections → Monitor
+## 4. Maintain sections
+
+Sections connect students and teachers to the correct academic workflows. After a membership change, verify the roster and ask the affected user to sign out and back in.
+
+Before deleting a section, check for active tests, homework, and historical reporting that may depend on it.
+
+## 5. Review activity
+
+Use **Activity Logs** when you need to investigate a recent operational change. Narrow the review to the relevant time and account, then compare the event with the current record.
+
+## What to read next
+
+<CardGroup cols={2}>
+  <Card title="Administrator guide" href="/admin-guide/overview" icon="user-gear">
+    Understand the complete administrator responsibility map.
+  </Card>
+  <Card title="User management" href="/admin-guide/user-management" icon="users-gear">
+    Create, update, reset, and remove accounts safely.
+  </Card>
+  <Card title="Sections and activity" href="/admin-guide/sections-and-activity" icon="school">
+    Maintain membership and investigate changes.
+  </Card>
+  <Card title="License management" href="/admin-tour-guide/dashboard-overview/key-metrics-cards/license-management" icon="key">
+    Interpret fixed and unlimited capacity.
+  </Card>
+</CardGroup>

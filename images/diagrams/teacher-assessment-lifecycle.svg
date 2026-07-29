@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="470" viewBox="0 0 1400 470" role="img" aria-labelledby="title desc">
+  <title id="title">Teacher assessment lifecycle</title>
+  <desc id="desc">A teacher creates or uploads an assessment, validates it, assigns it, monitors submissions, reviews grading, publishes results, and acts on insights.</desc>
+  <defs>
+    <marker id="a" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12z" fill="#c7cad1"/></marker>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#17213a" flood-opacity=".09"/></filter>
+  </defs>
+  <rect width="1400" height="470" rx="30" fill="#fffaf6"/>
+  <text x="700" y="58" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="750" fill="#17213a">Assessment lifecycle</text>
+  <text x="700" y="91" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" fill="#667085">Validation and review are deliberate gates—not optional cleanup.</text>
+  <g stroke="#c7cad1" stroke-width="4" marker-end="url(#a)">
+    <path d="M205 224H250"/><path d="M395 224H440"/><path d="M585 224H630"/><path d="M775 224H820"/><path d="M965 224H1010"/><path d="M1155 224H1200"/>
+  </g>
+  <g font-family="Inter,Arial,sans-serif" text-anchor="middle" filter="url(#s)">
+    <g><rect x="55" y="145" width="150" height="170" rx="22" fill="#fff" stroke="#e6e8ec"/><circle cx="130" cy="190" r="25" fill="#fff0e9"/><text x="130" y="198" font-size="20" fill="#ff4a00">01</text><text x="130" y="248" font-size="18" font-weight="700" fill="#17213a">Create</text><text x="130" y="273" font-size="14" fill="#667085">or upload paper</text></g>
+    <g><rect x="250" y="145" width="145" height="170" rx="22" fill="#fff" stroke="#ffb99c" stroke-width="2"/><circle cx="322" cy="190" r="25" fill="#fff0e9"/><text x="322" y="198" font-size="20" fill="#ff4a00">02</text><text x="322" y="248" font-size="18" font-weight="700" fill="#17213a">Validate</text><text x="322" y="273" font-size="14" fill="#667085">questions and marks</text></g>
+    <g><rect x="440" y="145" width="145" height="170" rx="22" fill="#fff" stroke="#e6e8ec"/><circle cx="512" cy="190" r="25" fill="#eaf5ff"/><text x="512" y="198" font-size="20" fill="#2779bd">03</text><text x="512" y="248" font-size="18" font-weight="700" fill="#17213a">Assign</text><text x="512" y="273" font-size="14" fill="#667085">section and dates</text></g>
+    <g><rect x="630" y="145" width="145" height="170" rx="22" fill="#fff" stroke="#e6e8ec"/><circle cx="702" cy="190" r="25" fill="#fff8dd"/><text x="702" y="198" font-size="20" fill="#a86c00">04</text><text x="702" y="248" font-size="18" font-weight="700" fill="#17213a">Monitor</text><text x="702" y="273" font-size="14" fill="#667085">submission status</text></g>
+    <g><rect x="820" y="145" width="145" height="170" rx="22" fill="#fff" stroke="#ffb99c" stroke-width="2"/><circle cx="892" cy="190" r="25" fill="#fff0e9"/><text x="892" y="198" font-size="20" fill="#ff4a00">05</text><text x="892" y="248" font-size="18" font-weight="700" fill="#17213a">Review</text><text x="892" y="273" font-size="14" fill="#667085">grading and re-checks</text></g>
+    <g><rect x="1010" y="145" width="145" height="170" rx="22" fill="#fff" stroke="#e6e8ec"/><circle cx="1082" cy="190" r="25" fill="#edf8f0"/><text x="1082" y="198" font-size="20" fill="#23804a">06</text><text x="1082" y="248" font-size="18" font-weight="700" fill="#17213a">Publish</text><text x="1082" y="273" font-size="14" fill="#667085">make results visible</text></g>
+    <g><rect x="1200" y="145" width="145" height="170" rx="22" fill="#fff" stroke="#e6e8ec"/><circle cx="1272" cy="190" r="25" fill="#f0efff"/><text x="1272" y="198" font-size="20" fill="#6557c5">07</text><text x="1272" y="248" font-size="18" font-weight="700" fill="#17213a">Act</text><text x="1272" y="273" font-size="14" fill="#667085">reteach or practice</text></g>
+  </g>
+  <rect x="250" y="350" width="715" height="58" rx="18" fill="#fff0e9"/>
+  <text x="607" y="386" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" font-weight="650" fill="#a83b0e">Human review protects question quality, learner marks, and result visibility.</text>
+</svg>

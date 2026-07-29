@@ -3,21 +3,12 @@
   "theme": "luma",
   "name": "Chanakya AI",
   "colors": {
-    "primary": "#FF4A00",
-    "light": "#FF4A00",
-    "dark": "#FF6A2A"
+    "primary": "#C73500",
+    "light": "#FF6A2A",
+    "dark": "#D1430A"
   },
   "favicon": "/logo/ChanakyaLogoMark.svg",
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "global": {
       "anchors": [
         {
@@ -37,7 +28,8 @@
         "group": "Overview",
         "expanded": true,
         "pages": [
-          "index"
+          "index",
+          "quickstart"
         ]
       },
       {
@@ -53,7 +45,32 @@
         "group": "Student Guide",
         "icon": "graduation-cap",
         "pages": [
-          "student-guide/overview"
+          "student-guide/overview",
+          {
+            "group": "Dashboard",
+            "pages": [
+              "student-guide/dashboard-overview/overview",
+              "student-guide/dashboard-overview/performance-cards",
+              "student-guide/dashboard-overview/filters-and-analytics"
+            ]
+          },
+          {
+            "group": "Tests and Homework",
+            "pages": [
+              "student-guide/exercise-management/overview",
+              "student-guide/exercise-management/accessing-exercises",
+              "student-guide/exercise-management/submitting-answers"
+            ]
+          },
+          {
+            "group": "Results and Improvement",
+            "pages": [
+              "student-guide/performance-analysis/overview",
+              "student-guide/performance-analysis/exercise-results",
+              "student-guide/performance-analysis/performance-insights",
+              "student-guide/performance-analysis/ai-recommendations"
+            ]
+          }
         ]
       },
       {
@@ -61,6 +78,15 @@
         "icon": "chalkboard-user",
         "pages": [
           "teacher-guide/overview",
+          {
+            "group": "Dashboard",
+            "pages": [
+              "teacher-guide/dashboard-overview/overview",
+              "teacher-guide/dashboard-overview/class-overview-and-analytics",
+              "teacher-guide/dashboard-overview/performance-metrics",
+              "teacher-guide/dashboard-overview/duration-and-batch-filters"
+            ]
+          },
           {
             "group": "Content Creation",
             "pages": [
@@ -103,20 +129,6 @@
         ]
       },
       {
-        "group": "Admin Tour Guide",
-        "icon": "user-gear",
-        "pages": [
-          "admin-tour-guide/overview"
-        ]
-      },
-      {
-        "group": "Platform Operations",
-        "icon": "screwdriver-wrench",
-        "pages": [
-          "maintenance-mode"
-        ]
-      },
-      {
         "group": "Administrator Guide",
         "icon": "user-gear",
         "pages": [
@@ -136,6 +148,13 @@
           },
           "admin-guide/user-management",
           "admin-guide/sections-and-activity"
+        ]
+      },
+      {
+        "group": "Platform Help",
+        "icon": "life-ring",
+        "pages": [
+          "maintenance-mode"
         ]
       }
     ]
@@ -174,6 +193,13 @@
       "linkedin": "https://linkedin.com/company/chanakya-ai/"
     }
   },
+  "redirects": [
+    {
+      "source": "/admin-tour-guide/overview",
+      "destination": "/admin-guide/overview",
+      "permanent": true
+    }
+  ],
   "description": "Official Chanakya AI documentation for students, teachers, and administrators. Learn how to use AI-powered assessments, exercises, analytics, feedback, and academic management tools.",
   "search": {
     "prompt": "Search Chanakya AI documentation"
