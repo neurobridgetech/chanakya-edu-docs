@@ -31,7 +31,53 @@
           "icon": "newspaper"
         }
       ]
-    }
+    },
+    "groups": [
+      {
+        "group": "Overview",
+        "expanded": true,
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "getting-started/student-onboarding-workflow",
+          "getting-started/teacher-registration-workflow",
+          "getting-started/admin-registration-workflow"
+        ]
+      },
+      {
+        "group": "Student Guide",
+        "icon": "graduation-cap",
+        "pages": [
+          "student-guide/overview"
+        ]
+      },
+      {
+        "group": "Teacher Guide",
+        "icon": "chalkboard-user",
+        "pages": [
+          "teacher-guide/overview"
+        ]
+      },
+      {
+        "group": "Admin Tour Guide",
+        "icon": "user-gear",
+        "pages": [
+          "admin-tour-guide/overview"
+        ]
+      },
+      {
+        "group": "Platform Operations",
+        "icon": "screwdriver-wrench",
+        "pages": [
+          "maintenance-mode"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
