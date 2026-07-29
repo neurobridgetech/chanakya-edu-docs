@@ -193,6 +193,12 @@
         "group": "Platform Help",
         "icon": "life-ring",
         "pages": [
+          "resources/troubleshooting",
+          "resources/status-reference",
+          "resources/upload-requirements",
+          "resources/privacy-and-data-handling",
+          "resources/browser-and-device-guidance",
+          "resources/glossary-and-faq",
           "resources/quick-reference-handouts",
           "maintenance-mode"
         ]
