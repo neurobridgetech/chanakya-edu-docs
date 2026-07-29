@@ -102,7 +102,8 @@
       "view",
       "chatgpt",
       "claude",
-      "perplexity"
+      "perplexity",
+      "mcp"
     ]
   },
   "footer": {
@@ -111,5 +112,37 @@
       "instagram": "https://www.instagram.com/chanakya.ai_official/",
       "linkedin": "https://linkedin.com/company/chanakya-ai/"
     }
+  },
+  "description": "Official Chanakya AI documentation for students, teachers, and administrators. Learn how to use AI-powered assessments, exercises, analytics, feedback, and academic management tools.",
+  "search": {
+    "prompt": "Search Chanakya AI documentation"
+  },
+  "seo": {
+    "metatags": {
+      "author": "Chanakya AI",
+      "application-name": "Chanakya AI",
+      "theme-color": "#FF4A00"
+    },
+    "organization": {
+      "id": "https://aichanakya.in/#organization",
+      "name": "Chanakya AI",
+      "legalName": "Neurobridge Tech Pvt Ltd",
+      "url": "https://aichanakya.in/",
+      "sameAs": [
+        "https://www.instagram.com/chanakya.ai_official/",
+        "https://linkedin.com/company/chanakya-ai/"
+      ]
+    },
+    "indexing": "navigable"
+  },
+  "errors": {
+    "404": {
+      "redirect": false,
+      "title": "Page not found",
+      "description": "The page you are looking for may have moved. Use the documentation search or return to the [Chanakya AI documentation home](/)."
+    }
+  },
+  "metadata": {
+    "timestamp": true
   }
 }
