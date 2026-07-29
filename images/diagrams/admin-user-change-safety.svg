@@ -2,7 +2,6 @@
   <title id="title">Safe administrator account change</title>
   <desc id="desc">Four steps: identify the exact account, check capacity and dependencies, make the smallest change, then verify access and activity.</desc>
   <defs>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="9" flood-color="#17213a" flood-opacity=".10"/></filter>
     <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#ff4a00"/></marker>
   </defs>
   <rect width="1200" height="430" rx="30" fill="#fffaf6"/>
@@ -11,7 +10,7 @@
   <g fill="none" stroke="#ff4a00" stroke-width="4" marker-end="url(#arrow)">
     <path d="M296 232H328"/><path d="M582 232H614"/><path d="M868 232H900"/>
   </g>
-  <g filter="url(#shadow)" font-family="Inter,Arial,sans-serif">
+  <g font-family="Inter,Arial,sans-serif">
     <g>
       <rect x="48" y="145" width="248" height="184" rx="22" fill="#fff" stroke="#e6e8ec"/>
       <circle cx="88" cy="187" r="21" fill="#ff4a00"/><text x="88" y="194" text-anchor="middle" font-size="20" font-weight="800" fill="#fff">1</text>
