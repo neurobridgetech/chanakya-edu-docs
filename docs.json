@@ -67,8 +67,16 @@
             "pages": [
               "student-guide/performance-analysis/overview",
               "student-guide/performance-analysis/exercise-results",
+              "student-guide/performance-analysis/question-review",
               "student-guide/performance-analysis/performance-insights",
               "student-guide/performance-analysis/ai-recommendations"
+            ]
+          },
+          {
+            "group": "Resources and Account",
+            "pages": [
+              "student-guide/resources-and-tools",
+              "student-guide/account-and-security"
             ]
           }
         ]

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Student workspace map</title>
+  <desc id="desc">A map from the student dashboard to tests, homework, resources, results, and account settings.</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#172033" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#C73500"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="650" rx="28" fill="#FFF8F4"/>
+  <text x="64" y="70" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="700" fill="#172033">Your Student workspace</text>
+  <text x="64" y="106" font-family="Inter,Arial,sans-serif" font-size="18" fill="#596276">Start at the dashboard, then follow the task you need to complete.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="420" y="150" width="360" height="142" rx="24" fill="#C73500"/>
+  </g>
+  <circle cx="482" cy="221" r="34" fill="#FFF" opacity=".18"/>
+  <path d="M466 225h32M470 213h24M474 201h16" stroke="#FFF" stroke-width="5" stroke-linecap="round"/>
+  <text x="536" y="211" font-family="Inter,Arial,sans-serif" font-size="26" font-weight="700" fill="#FFF">Dashboard</text>
+  <text x="536" y="242" font-family="Inter,Arial,sans-serif" font-size="16" fill="#FFF">Progress, upcoming work, next action</text>
+
+  <path d="M520 292 C420 335 265 332 210 390" fill="none" stroke="#C73500" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M600 292 V382" fill="none" stroke="#C73500" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M680 292 C780 335 935 332 990 390" fill="none" stroke="#C73500" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="55" y="400" width="310" height="180" rx="22" fill="#FFF"/>
+    <rect x="445" y="400" width="310" height="180" rx="22" fill="#FFF"/>
+    <rect x="835" y="400" width="310" height="180" rx="22" fill="#FFF"/>
+  </g>
+
+  <circle cx="105" cy="452" r="27" fill="#FFF0E8"/>
+  <path d="M92 443h26v22H92z M98 437h14" fill="none" stroke="#C73500" stroke-width="4" stroke-linejoin="round"/>
+  <text x="145" y="446" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#172033">Tests &amp; homework</text>
+  <text x="85" y="492" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Find assigned work</text>
+  <text x="85" y="520" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Check status and deadline</text>
+  <text x="85" y="548" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Open, upload, and submit</text>
+
+  <circle cx="495" cy="452" r="27" fill="#EAF8EF"/>
+  <path d="M482 454l8 8 18-22" fill="none" stroke="#087A35" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="535" y="446" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#172033">Results</text>
+  <text x="475" y="492" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Review marks and attempts</text>
+  <text x="475" y="520" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Open question feedback</text>
+  <text x="475" y="548" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Choose a revision action</text>
+
+  <circle cx="885" cy="452" r="27" fill="#EEF2FF"/>
+  <path d="M873 441h24v27h-24z M878 436h14" fill="none" stroke="#3949AB" stroke-width="4" stroke-linejoin="round"/>
+  <text x="925" y="446" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="700" fill="#172033">Resources &amp; account</text>
+  <text x="865" y="492" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Open class study material</text>
+  <text x="865" y="520" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Use image-to-text when enabled</text>
+  <text x="865" y="548" font-family="Inter,Arial,sans-serif" font-size="16" fill="#596276">Manage password and sessions</text>
+</svg>
