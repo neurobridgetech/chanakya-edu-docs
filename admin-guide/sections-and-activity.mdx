@@ -1,47 +1,45 @@
 ---
 title: "Sections & Activity"
-description: "Maintain section membership and use activity logs to verify organization changes."
+description: "Understand how sections connect people to academic work and how activity logs verify organization changes."
+sidebarTitle: "Overview"
 ---
 
-# Sections and activity
+# Sections and operational oversight
 
-Sections connect learners and teachers to the right academic workflows.
+Sections connect a board and class to the correct learners, teachers, subjects, tests, and homework. Activity logs help you investigate whether an important change happened as expected.
 
-## Maintain a section
+<img src="/images/diagrams/admin-section-dependency-map.svg" alt="Section dependency map connecting students, teachers and subjects, tests, and homework." />
 
-- Use a clear class and section name.
-- Assign the intended students and teachers.
-- Confirm subject or teaching context where required.
-- Review membership after edits.
-- Check active assessments before deleting a section.
+## Use sections carefully
 
-## Create or edit safely
+A section change can alter what several people can see. Before editing or deleting:
 
-1. Use the organization's established class and section naming pattern.
-2. Select the correct class context.
-3. Add the intended teachers and students.
-4. Save once.
-5. Reopen the section and verify the roster.
-6. Ask affected users to sign out and back in.
+- Confirm the board, class, and section name.
+- Review the Student roster.
+- Review Teacher and subject relationships.
+- Check active tests and homework.
+- Consider historical reporting.
 
-<Warning>
-  Deleting a section can affect access to active and historical work. Prefer correcting membership when the section itself is still valid.
-</Warning>
+## Use activity as evidence
 
-## Review activity
+Search activity by actor, role, or event detail. Compare the event timestamp and description with the current account, section, or assessment record.
 
-Use **Activity Logs** to investigate operational changes or unexpected access. Narrow the review to the relevant time and account, then compare it with the current record.
+Activity logs can help answer:
 
-Useful investigation details include:
-
-- The approximate time of the event.
-- The affected account or section.
-- The action the user expected.
-- What appeared instead.
-- Whether the user refreshed or signed in again.
-
-Avoid copying passwords, full answer sheets, or unnecessary personal data into support notes.
+- Who performed an administrative action?
+- What kind of record changed?
+- When did it happen?
+- Does the current state match the event?
 
 <Info>
-  A successful account update does not always refresh an already-open session. Ask the affected user to sign out and back in after role or assignment changes.
+  An activity event confirms that an action was recorded. It does not replace checking the current record or asking an affected user to sign in again.
 </Info>
+
+<CardGroup cols={2}>
+  <Card title="Manage sections" icon="school" href="/admin-guide/section-management">
+    Create and maintain section dependencies safely.
+  </Card>
+  <Card title="Review activity logs" icon="clock-rotate-left" href="/admin-guide/activity-logs">
+    Search events without exposing unnecessary personal information.
+  </Card>
+</CardGroup>

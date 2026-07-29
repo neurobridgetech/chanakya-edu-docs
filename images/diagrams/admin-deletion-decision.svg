@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Administrator deletion decision</title>
+  <desc id="desc">If an item is deleted and should return, recover it. Permanently delete only after confirming policy, identity, submissions, reporting needs and irreversibility.</desc>
+  <defs><filter id="s" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#17213a" flood-opacity=".09"/></filter></defs>
+  <rect width="1200" height="500" rx="30" fill="#fffaf6"/>
+  <text x="600" y="58" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="750" fill="#17213a">Deleted does not always mean disposable</text>
+  <text x="600" y="91" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="16" fill="#667085">Use recovery when the content is still needed. Treat permanent deletion as irreversible.</text>
+  <g fill="none" stroke-width="4">
+    <path d="M600 213V250H305V286" stroke="#14a35a"/>
+    <path d="M600 213V250H895V286" stroke="#d92d20"/>
+  </g>
+  <g filter="url(#s)" font-family="Inter,Arial,sans-serif">
+    <rect x="410" y="128" width="380" height="90" rx="23" fill="#17213a"/>
+    <text x="600" y="166" text-anchor="middle" font-size="22" font-weight="750" fill="#fff">Should this deleted item return?</text>
+    <text x="600" y="193" text-anchor="middle" font-size="15" fill="#d0d5dd">Check owner, status, submissions, and policy</text>
+
+    <rect x="80" y="286" width="450" height="150" rx="24" fill="#ecfdf3" stroke="#86efac"/>
+    <text x="305" y="332" text-anchor="middle" font-size="23" font-weight="760" fill="#087a43">Yes — Recover</text>
+    <text x="305" y="368" text-anchor="middle" font-size="15" fill="#344054">Restore the item, then verify status and access.</text>
+    <text x="305" y="398" text-anchor="middle" font-size="15" fill="#344054">Use when deletion was accidental or temporary.</text>
+
+    <rect x="670" y="286" width="450" height="150" rx="24" fill="#fff1f0" stroke="#fda29b"/>
+    <text x="895" y="332" text-anchor="middle" font-size="23" font-weight="760" fill="#b42318">No — Pause before permanent delete</text>
+    <text x="895" y="368" text-anchor="middle" font-size="15" fill="#344054">Confirm there are no required submissions or reports.</text>
+    <text x="895" y="398" text-anchor="middle" font-size="15" fill="#344054">Proceed only with explicit authority and no recovery need.</text>
+  </g>
+</svg>
