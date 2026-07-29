@@ -1,65 +1,57 @@
 ---
 title: "User Management"
-description: "Create, update, reset, and remove student and teacher accounts safely."
+description: "Use a safe, repeatable process for creating, correcting, resetting, exporting, and removing Student and Teacher accounts."
+sidebarTitle: "Overview"
 ---
 
-# Manage users
+# Manage people and access
 
-Use **Students** and **Teachers** to search, create, and maintain organization accounts.
+Open **Students** or **Teachers** to search, filter, create, export, edit, reset, or remove organization accounts.
+
+<img src="/images/diagrams/admin-user-change-safety.svg" alt="Four-step safe account change: identify, check, change, and verify." />
+
+## Use the smallest safe change
 
 <Steps>
   <Step title="Search first">
-    Search by the provided identifier and name. Confirm that the person does not already have an account.
+    Search the supplied name and unique identifier. Use class, section, or assignment filters to distinguish similar records.
   </Step>
-  <Step title="Check capacity">
-    Review the active subscription before adding a licensed account.
+  <Step title="Check capacity and dependencies">
+    Review the active subscription before adding a licensed account. Check existing section membership and active work before changing or removing access.
   </Step>
-  <Step title="Create or edit">
-    Enter the required identity and academic details, then assign the correct class, section, or teaching context.
+  <Step title="Make one focused change">
+    Create, edit, reset, or remove only the intended record. Avoid changing unrelated identity or assignment fields.
   </Step>
-  <Step title="Verify access">
-    Confirm the account appears in the list and the intended section membership is correct.
+  <Step title="Verify">
+    Reopen the list, confirm the record appears once, check the intended section or teaching context, and review activity when the change is high impact.
   </Step>
 </Steps>
 
-## Password resets and removal
+## Actions available from a list
 
-Reset a password only for the verified account. Remove an account only when organizational policy permits it and active work no longer depends on it.
+| Action | Use it for | Check first |
+| --- | --- | --- |
+| Add | Create a new organization account | Duplicate search and license capacity |
+| Export | Download the current user report | Organizational approval and secure storage |
+| Edit | Correct details or assignments | Exact account and active dependencies |
+| Reset password | Restore verified access | Identity and approved handoff channel |
+| Delete | Remove organization access | Policy, active work, history, and reporting |
 
 <Warning>
-  Never send passwords through public documentation, screenshots, or shared support channels.
+  A reset password is temporary sensitive information. Do not place it in documentation, screenshots, public tickets, or group chats.
 </Warning>
 
-## Student account checklist
+## Duplicate accounts
 
-- Confirm the student's unique identifier and name.
-- Choose the intended class and section.
-- Check for an existing record with a similar identifier.
-- Verify licensed student capacity.
-- Confirm the account appears in the correct roster.
+Do not immediately delete either record. Determine which account contains submissions, grading history, sections, or teaching assignments. Follow the organization's correction process so history is not split or lost.
 
-## Teacher account checklist
+## Continue
 
-- Confirm the teacher's unique identifier and organization.
-- Verify licensed teacher capacity.
-- Assign the intended sections and subjects.
-- Ask the teacher to sign out and back in after assignment changes.
-- Confirm that navigation shows only the enabled role features.
-
-## Correcting a duplicate
-
-Do not delete either account immediately. First determine which record contains active submissions, grading history, or assignments. Follow your organization's approved correction process so academic history is not lost.
-
-## Troubleshooting access
-
-<AccordionGroup>
-  <Accordion title="The account exists but the user cannot sign in">
-    Verify the User Id exactly, check account status, and follow the approved password-reset process. Never ask the user to send you their existing password.
-  </Accordion>
-  <Accordion title="The user signs in but sees the wrong tools">
-    Confirm the role, enabled subscription features, and section or subject assignments. Ask the user to sign out and back in after corrections.
-  </Accordion>
-  <Accordion title="The user is missing from a section">
-    Open the section, add the intended account, save, and recheck the roster. Confirm that you changed the correct organization record.
-  </Accordion>
-</AccordionGroup>
+<CardGroup cols={2}>
+  <Card title="Student accounts" icon="graduation-cap" href="/admin-guide/student-management">
+    Search, create, enroll, edit, reset, and safely remove Student accounts.
+  </Card>
+  <Card title="Teacher accounts" icon="chalkboard-user" href="/admin-guide/teacher-management">
+    Search, create, assign teaching context, reset, and safely remove Teacher accounts.
+  </Card>
+</CardGroup>

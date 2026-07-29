@@ -154,8 +154,32 @@
               "admin-tour-guide/dashboard-overview/overview-tables/teacher-overview-table"
             ]
           },
-          "admin-guide/user-management",
-          "admin-guide/sections-and-activity"
+          {
+            "group": "People and Access",
+            "icon": "users-gear",
+            "pages": [
+              "admin-guide/user-management",
+              "admin-guide/student-management",
+              "admin-guide/teacher-management"
+            ]
+          },
+          {
+            "group": "Sections and Oversight",
+            "icon": "school",
+            "pages": [
+              "admin-guide/sections-and-activity",
+              "admin-guide/section-management",
+              "admin-guide/activity-logs",
+              "admin-guide/assessment-oversight"
+            ]
+          },
+          {
+            "group": "Support and Account",
+            "icon": "shield-halved",
+            "pages": [
+              "admin-guide/support-and-account"
+            ]
+          }
         ]
       },
       {

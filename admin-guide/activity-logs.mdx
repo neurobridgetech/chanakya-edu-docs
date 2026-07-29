@@ -1,0 +1,40 @@
+---
+title: "Activity Logs"
+description: "Search organization events, interpret each field, and investigate changes without exposing sensitive data."
+sidebarTitle: "Activity Logs"
+---
+
+# Review activity logs
+
+Open the profile menu and select **Activity Logs**.
+
+<img src="/images/app/admin/profile-menu.png" alt="Administrator profile menu with Activity Logs, Give Feedback, and Logout." />
+
+Use the search field to narrow logs by user name, email, or event details.
+
+<img src="/images/app/admin/activity-log-search.png" alt="Activity log search field for actor and event details." />
+
+Each row contains the actor, role, event details, and timestamp.
+
+<img src="/images/app/admin/activity-log-columns.png" alt="Activity log headings for actor, role, details, and timestamp." />
+
+## Investigate an event
+
+1. Record the approximate time and reported symptom.
+2. Search the affected account, section, or assessment.
+3. Confirm the actor and role.
+4. Read the event description.
+5. Compare the timestamp with the report.
+6. Open the current record and verify its state.
+
+## Interpret carefully
+
+- An event records an action, not necessarily the complete business outcome.
+- Several related events can belong to one workflow.
+- A password event should not reveal the password.
+- A content-processing event can be followed by another status event.
+- Time display follows the interface's configured locale and timezone.
+
+<Warning>
+  Activity logs can contain names, identifiers, assessment titles, and operational details. Share only the minimum excerpt required with authorized support.
+</Warning>

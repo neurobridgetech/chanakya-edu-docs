@@ -1,59 +1,63 @@
 ---
 title: "Administrator Guide"
-description: "Manage users, sections, subscriptions, and activity in the Chanakya AI administrator workspace."
+description: "Manage organization capacity, people, sections, assessment oversight, activity, and support in the Chanakya AI administrator workspace."
 sidebarTitle: "Overview"
 ---
 
 # Administrator guide
 
-Administrators maintain the organization structure, access, and capacity used by teachers and students.
+Administrators maintain the organization structure and access that teachers and students depend on. Use the Admin workspace to monitor subscription capacity, manage accounts and sections, oversee assessment records, and verify important changes.
 
 <img src="/images/diagrams/admin-operations-map.svg" alt="Administrator workflow: review subscription capacity, manage users and sections, then verify access and activity." />
 
+## Your workspace
+
+The primary navigation contains **Dashboard**, **Tests**, **Homework**, **Students**, **Teachers**, **Sections**, and **Help**. Feature availability can vary by organization and subscription.
+
+<img src="/images/app/admin/mobile-navigation.png" alt="Mobile Administrator navigation with Dashboard, Tests, Homework, Students, Teachers, Sections, and Help." />
+
 <CardGroup cols={2}>
   <Card title="Dashboard and licenses" icon="gauge-high" href="/admin-tour-guide/dashboard-overview/overview">
-    Review organization totals, the selected subscription, capacity, and renewal state.
+    Review the active subscription, organization totals, usage, limits, and remaining capacity.
   </Card>
 
-  <Card title="Manage users" icon="users-gear" href="/admin-guide/user-management">
-    Create, update, reset, and safely remove student or teacher accounts.
+  <Card title="Students and teachers" icon="users-gear" href="/admin-guide/user-management">
+    Search before creating, verify identity, maintain access, and avoid duplicate accounts.
   </Card>
 
   <Card title="Sections and activity" icon="school" href="/admin-guide/sections-and-activity">
-    Maintain section membership and review operational changes.
+    Maintain roster dependencies and investigate operational events.
+  </Card>
+
+  <Card title="Assessment oversight" icon="clipboard-check" href="/admin-guide/assessment-oversight">
+    Filter tests and homework, review status, recover deleted work, and control permanent deletion.
   </Card>
 </CardGroup>
 
-## Safe administration checklist
+## Admin responsibility map
 
-1. Confirm the organization and subscription context.
-2. Search for an existing record before creating one.
-3. Check license capacity.
-4. Verify the target user's unique identifier.
-5. Confirm section and subject assignments.
-6. Review activity after high-impact changes.
+| Area | Administrator owns | Verify afterward |
+| --- | --- | --- |
+| Subscription | Capacity, utilization, renewal awareness | Correct subscription and remaining quota |
+| People | Account creation, correction, reset, and removal | One correct record with intended access |
+| Sections | Board, class, roster, and teaching relationships | Students, teachers, and subjects are connected |
+| Assessments | Organization-level oversight and recovery controls | Status, submissions, and reporting remain consistent |
+| Activity | Investigation of operational changes | Event and current record tell the same story |
+
+## High-impact actions
+
+Password resets, account deletion, section deletion, and permanent assessment deletion can affect another person's access or history. Before using one:
+
+1. Confirm the exact target.
+2. Check active work and reporting dependencies.
+3. Use the smallest change that solves the problem.
+4. Save once.
+5. Reopen the record and review activity.
 
 <Warning>
-  Password resets, deletions, and membership changes affect another person's access. Confirm the exact account and intended outcome before saving.
+  Never place passwords, answer sheets, private contact details, or full activity-log records in public support messages or screenshots.
 </Warning>
 
-## Responsibility boundaries
+## On a phone
 
-Administrators manage access and organization structure. Teachers own instructional review and result publication. Students own their active attempts and submitted work.
-
-When a request crosses those boundaries:
-
-- Verify the requester's identity and authority.
-- Record the reason for the change when your organization requires it.
-- Avoid editing academic outcomes when an access or assignment correction is sufficient.
-- Use activity logs to confirm that a high-impact change completed as intended.
-
-## Common administrative tasks
-
-| Task | Check first | Verify afterward |
-| --- | --- | --- |
-| Add a student or teacher | Existing account and license capacity | Account appears once with correct details |
-| Reset access | Exact identity and approved reset process | User can sign in without exposing the new password |
-| Change section membership | Correct class, section, and active work | Roster and user navigation reflect the change |
-| Remove an account | Policy, identity, active work, and reporting needs | Access is removed and related records remain consistent |
-| Investigate a change | Time window, account, and reported symptom | Activity event matches the current record |
+Select the menu button at the top to open Admin navigation. The same role features are available in a stacked drawer. For long tables or complex configuration, a larger screen is easier to review before saving.
