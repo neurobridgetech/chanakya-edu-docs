@@ -25,8 +25,123 @@
     },
     "groups": [
       {
-        "group": "Home",
-        "pages": []
+        "group": "Overview",
+        "expanded": true,
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Getting Started",
+        "icon": "rocket",
+        "pages": [
+          "getting-started/student-onboarding-workflow",
+          "getting-started/teacher-registration-workflow",
+          "getting-started/admin-registration-workflow"
+        ]
+      },
+      {
+        "group": "Student Guide",
+        "icon": "graduation-cap",
+        "pages": [
+          "student-guide/overview",
+          {
+            "group": "Dashboard",
+            "pages": [
+              "student-guide/dashboard-overview/overview",
+              "student-guide/dashboard-overview/performance-cards",
+              "student-guide/dashboard-overview/filters-and-analytics"
+            ]
+          },
+          {
+            "group": "Tests and Homework",
+            "pages": [
+              "student-guide/exercise-management/overview",
+              "student-guide/exercise-management/accessing-exercises",
+              "student-guide/exercise-management/submitting-answers"
+            ]
+          },
+          {
+            "group": "Results and Improvement",
+            "pages": [
+              "student-guide/performance-analysis/overview",
+              "student-guide/performance-analysis/exercise-results",
+              "student-guide/performance-analysis/question-review",
+              "student-guide/performance-analysis/performance-insights",
+              "student-guide/performance-analysis/ai-recommendations"
+            ]
+          },
+          {
+            "group": "Resources and Account",
+            "pages": [
+              "student-guide/resources-and-tools",
+              "student-guide/account-and-security"
+            ]
+          }
+        ]
+      },
+      {
+        "group": "Teacher Guide",
+        "icon": "chalkboard-user",
+        "pages": [
+          "teacher-guide/overview",
+          {
+            "group": "Dashboard",
+            "pages": [
+              "teacher-guide/dashboard-overview/overview",
+              "teacher-guide/dashboard-overview/class-overview-and-analytics",
+              "teacher-guide/dashboard-overview/performance-metrics",
+              "teacher-guide/dashboard-overview/duration-and-batch-filters"
+            ]
+          },
+          {
+            "group": "Content Creation",
+            "pages": [
+              "teacher-guide/content-creation/overview",
+              "teacher-guide/content-creation/creating-exercises",
+              "teacher-guide/content-creation/preview-and-validation",
+              "teacher-guide/content-creation/publishing-content",
+              "teacher-guide/content-creation/export-options"
+            ]
+          },
+          {
+            "group": "Test Management",
+            "icon": "list-check",
+            "pages": [
+              "teacher-guide/exercise-management/overview",
+              "teacher-guide/exercise-management/exercise-list-and-status",
+              "teacher-guide/exercise-management/homework-management",
+              "teacher-guide/exercise-management/student-submissions",
+              "teacher-guide/exercise-management/exercise-analytics",
+              "teacher-guide/exercise-management/progress-tracking"
+            ]
+          },
+          {
+            "group": "Student Analytics",
+            "pages": [
+              "teacher-guide/student-analytics/overview",
+              "teacher-guide/student-analytics/class-performance-overview",
+              "teacher-guide/student-analytics/individual-student-analysis",
+              "teacher-guide/student-analytics/comparative-analytics",
+              "teacher-guide/student-analytics/progress-reports"
+            ]
+          },
+          {
+            "group": "Sections",
+            "pages": [
+              "teacher-guide/batch-management/overview",
+              "teacher-guide/batch-management/viewing-assigned-batches",
+              "teacher-guide/batch-management/student-management"
+            ]
+          },
+          {
+            "group": "Account and Support",
+            "pages": [
+              "teacher-guide/account-and-support"
+            ]
+          }
+        ]
       },
       {
         "group": "Administrator Guide",
@@ -36,7 +151,15 @@
           {
             "group": "Dashboard details",
             "icon": "gauge-high",
-            "pages": []
+            "pages": [
+              "admin-tour-guide/dashboard-overview/overview",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/total-students",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/total-teachers",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/total-sections",
+              "admin-tour-guide/dashboard-overview/key-metrics-cards/license-management",
+              "admin-tour-guide/dashboard-overview/overview-tables/student-overview-table",
+              "admin-tour-guide/dashboard-overview/overview-tables/teacher-overview-table"
+            ]
           },
           {
             "group": "People and Access",
@@ -76,7 +199,8 @@
           "resources/privacy-and-data-handling",
           "resources/browser-and-device-guidance",
           "resources/glossary-and-faq",
-          "resources/quick-reference-handouts"
+          "resources/quick-reference-handouts",
+          "maintenance-mode"
         ]
       }
     ]
@@ -105,8 +229,7 @@
       "chatgpt",
       "claude",
       "perplexity",
-      "mcp",
-      "download-pdf"
+      "mcp"
     ]
   },
   "footer": {
